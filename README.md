@@ -2,8 +2,6 @@
 
 [![CircleCI](https://circleci.com/gh/vigetlabs/jest-with-nightmare.svg?style=svg)](https://circleci.com/gh/vigetlabs/jest-with-nightmare)
 
----
-
 ## Setup
 
 ```
