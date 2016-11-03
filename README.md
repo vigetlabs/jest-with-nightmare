@@ -1,6 +1,6 @@
 # Jest with Nightmare
 
-[![CircleCI](https://circleci.com/gh/nhunzaker/jest-with-nightmare.svg?style=svg)](https://circleci.com/gh/nhunzaker/jest-with-nightmare)
+[![CircleCI](https://circleci.com/gh/vigetlabs/jest-with-nightmare.svg?style=svg)](https://circleci.com/gh/vigetlabs/jest-with-nightmare)
 
 ---
 
