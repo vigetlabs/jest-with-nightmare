@@ -15,7 +15,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom test/unit test/integration",
+    "test": "react-scripts test --env=jsdom test/unit",
     "test:acceptance": "react-scripts test --env=jsdom test/acceptance",
     "test:all": "react-scripts test --env=jsdom test",
     "test:cov": "react-scripts test --env=jsdom test --coverage"

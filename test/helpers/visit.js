@@ -1,17 +1,16 @@
 import nightmare from 'nightmare'
 import url from 'url'
-import qs from 'qs'
 
 const BASE_URL = url.format({
-  protocol : 'http',
-  hostname : 'localhost',
+  protocol : process.env.PROTOCOL || 'http',
+  hostname : process.env.HOST || 'localhost',
   port     : process.env.PORT || 3000
 })
 
 const DEBUG = process.env.DEBUG || false
 
 export default function (path='', query={}) {
-  const location = url.resolve(BASE_URL, path) + '?' + qs.stringify(query)
+  const location = url.resolve(BASE_URL, path)
 
   const page = nightmare({
     show: DEBUG,
