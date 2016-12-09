@@ -3,4 +3,4 @@ machine:
     version: stable
 test:
   override:
-    - bash scripts/test.sh
+    - bash -e scripts/test.sh
