@@ -16,7 +16,7 @@ APP_TEST_PID=$(echo $!)
 PORT=3001 CI=true npm run test:all
 
 # Exit the build directory
-popd build
+popd
 
 # Kill the server
 kill $APP_TEST_PID
