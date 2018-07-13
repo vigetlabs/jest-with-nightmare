@@ -5,6 +5,7 @@
   "devDependencies": {
     "enzyme": "^2.5.1",
     "nightmare": "^2.7.0",
+    "pushstate-server": "^3.0.1",
     "react-addons-test-utils": "^15.3.2",
     "react-scripts": "0.6.1"
   },

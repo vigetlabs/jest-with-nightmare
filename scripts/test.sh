@@ -1,22 +1,16 @@
 # This script is used by CircleCI to execute automated tests.
 
 # Build all assets
-npm run build
+yarn build
 
 # Switch to the build directory
-pushd build
-
-# Boot a static file server
-php -S localhost:3001 &
+yarn pushstate-server build &
 
 # Save the PID of the server to a variable
 APP_TEST_PID=$(echo $!)
 
 # Execute tests
-PORT=3001 CI=true npm run test:all
-
-# Exit the build directory
-popd
+PORT=9000 CI=true npm run test:all
 
 # Kill the server
 kill $APP_TEST_PID
