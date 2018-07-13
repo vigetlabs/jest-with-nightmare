@@ -1,6 +1,0 @@
-machine:
-  node:
-    version: stable
-test:
-  override:
-    - bash -e scripts/test.sh
